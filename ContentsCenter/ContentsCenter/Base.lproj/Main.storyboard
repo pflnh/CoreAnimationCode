@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YiQ-qZ-rVZ">
+                                <rect key="frame" x="373" y="120" width="190" height="118"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="253" id="RA6-xi-IcK"/>
+                                    <constraint firstAttribute="height" constant="105" id="eaA-fF-Jed"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="RA6-xi-IcK"/>
+                                        <exclude reference="eaA-fF-Jed"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="RA6-xi-IcK"/>
+                                        <include reference="eaA-fF-Jed"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rq9-x7-Xwg">
+                                <rect key="frame" x="44" y="115" width="168" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="contentStretch" x="0.25" y="0.25" width="0.5" height="0.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="107" id="LCC-3h-Wv1"/>
+                                    <constraint firstAttribute="height" constant="200" id="fVa-On-faX"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="LCC-3h-Wv1"/>
+                                        <exclude reference="fVa-On-faX"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="LCC-3h-Wv1"/>
+                                        <include reference="fVa-On-faX"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="YiQ-qZ-rVZ" secondAttribute="trailing" constant="17" id="3uo-PH-eTP"/>
+                            <constraint firstItem="rq9-x7-Xwg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="HaR-Mk-4ed"/>
+                            <constraint firstItem="YiQ-qZ-rVZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Jre-3g-H1a"/>
+                            <constraint firstItem="rq9-x7-Xwg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="dFA-Hj-Uxy"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="HaR-Mk-4ed"/>
+                                <exclude reference="dFA-Hj-Uxy"/>
+                                <exclude reference="3uo-PH-eTP"/>
+                                <exclude reference="Jre-3g-H1a"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="HaR-Mk-4ed"/>
+                                <include reference="dFA-Hj-Uxy"/>
+                                <include reference="3uo-PH-eTP"/>
+                                <include reference="Jre-3g-H1a"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="button1" destination="rq9-x7-Xwg" id="hTi-2Y-cSn"/>
+                        <outlet property="button2" destination="YiQ-qZ-rVZ" id="UMZ-VU-a3g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="376.5"/>
+        </scene>
+    </scenes>
+</document>

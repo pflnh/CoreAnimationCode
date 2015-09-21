@@ -28,15 +28,24 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     CGPoint point = [[touches anyObject] locationInView:self.view];
-    point = [self.layerView.layer convertPoint:point fromLayer:self.view.layer];
-    if ([self.layerView.layer containsPoint:point]) {
-        point = [self.blueLayer convertPoint:point fromLayer:self.layerView.layer];
-        if ([self.blueLayer containsPoint:point]) {
-            [self alert:@"Inside blue layer"];
-        } else {
-            [self alert:@"Inside white layer"];
-        }
+//    point = [self.layerView.layer convertPoint:point fromLayer:self.view.layer];
+//    if ([self.layerView.layer containsPoint:point]) {
+//        point = [self.blueLayer convertPoint:point fromLayer:self.layerView.layer];
+//        if ([self.blueLayer containsPoint:point]) {
+//            [self alert:@"Inside blue layer"];
+//        } else {
+//            [self alert:@"Inside white layer"];
+//        }
+//    }
+    
+    CALayer *layer = [self.layerView.layer hitTest:point];
+    if (layer == self.blueLayer) {
+        [self alert:@"Blue"];
+    } else if (layer == self.layerView.layer) {
+        [self alert:@"White"];
     }
+    
+    
 }
 
 - (void)alert:(NSString *)msg {

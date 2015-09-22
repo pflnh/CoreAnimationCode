@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+
 @end
 
 @implementation ViewController
@@ -17,6 +19,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    CALayer *maskLayer = [CALayer layer];
+    maskLayer.contents = (__bridge id)[UIImage imageNamed:@"Cone"].CGImage;
+    maskLayer.frame = self.imageView.bounds;
+    self.imageView.layer.mask = maskLayer;
 }
 
 - (void)didReceiveMemoryWarning {

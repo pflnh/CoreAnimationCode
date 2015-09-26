@@ -16,27 +16,41 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LPT-Iy-a4g">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ApV-FU-8mD">
                                 <rect key="frame" x="200" y="200" width="200" height="200"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aPl-E5-v4w">
+                                        <rect key="frame" x="50" y="50" width="100" height="100"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="Cuu-Df-334"/>
+                                            <constraint firstAttribute="width" constant="100" id="pIC-k9-y2y"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="11w-OO-1fm"/>
-                                    <constraint firstAttribute="height" constant="200" id="YpY-Z7-hUx"/>
+                                    <constraint firstItem="aPl-E5-v4w" firstAttribute="centerY" secondItem="ApV-FU-8mD" secondAttribute="centerY" id="JWq-8n-tAN"/>
+                                    <constraint firstItem="aPl-E5-v4w" firstAttribute="centerX" secondItem="ApV-FU-8mD" secondAttribute="centerX" id="ZiJ-PM-uJw"/>
+                                    <constraint firstAttribute="height" constant="200" id="fIZ-Bk-rbu"/>
+                                    <constraint firstAttribute="width" constant="200" id="xDY-yL-TxN"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="LPT-Iy-a4g" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bDH-dS-l6H"/>
-                            <constraint firstItem="LPT-Iy-a4g" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="e0e-o0-4IO"/>
+                            <constraint firstItem="ApV-FU-8mD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="fxn-tR-ILe"/>
+                            <constraint firstItem="ApV-FU-8mD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="h0J-uR-F0M"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="layerView" destination="LPT-Iy-a4g" id="Ivg-Rh-k8W"/>
+                        <outlet property="innerView" destination="aPl-E5-v4w" id="KBg-70-xan"/>
+                        <outlet property="outerView" destination="ApV-FU-8mD" id="spo-6i-eZU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="340" y="377"/>
         </scene>
     </scenes>
 </document>

@@ -16,27 +16,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LPT-Iy-a4g">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w62-cl-ajQ">
                                 <rect key="frame" x="200" y="200" width="200" height="200"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hhk-lA-1tR">
+                                        <rect key="frame" x="50" y="50" width="100" height="100"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="11w-OO-1fm"/>
-                                    <constraint firstAttribute="height" constant="200" id="YpY-Z7-hUx"/>
+                                    <constraint firstItem="Hhk-lA-1tR" firstAttribute="leading" secondItem="w62-cl-ajQ" secondAttribute="leading" constant="50" id="8Rj-45-2s2"/>
+                                    <constraint firstItem="Hhk-lA-1tR" firstAttribute="centerX" secondItem="w62-cl-ajQ" secondAttribute="centerX" id="OaI-h4-TXJ"/>
+                                    <constraint firstItem="Hhk-lA-1tR" firstAttribute="top" secondItem="w62-cl-ajQ" secondAttribute="top" constant="50" id="Obx-Dr-t0U"/>
+                                    <constraint firstAttribute="width" constant="200" id="Xvj-xn-JKC"/>
+                                    <constraint firstItem="Hhk-lA-1tR" firstAttribute="centerY" secondItem="w62-cl-ajQ" secondAttribute="centerY" id="sJC-wQ-fKm"/>
+                                    <constraint firstAttribute="height" constant="200" id="sVv-Ql-Xwf"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="LPT-Iy-a4g" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bDH-dS-l6H"/>
-                            <constraint firstItem="LPT-Iy-a4g" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="e0e-o0-4IO"/>
+                            <constraint firstItem="w62-cl-ajQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EtC-3B-QzU"/>
+                            <constraint firstItem="w62-cl-ajQ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Zht-lB-6Vo"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="layerView" destination="LPT-Iy-a4g" id="Ivg-Rh-k8W"/>
+                        <outlet property="innerView" destination="Hhk-lA-1tR" id="Hla-pR-qYc"/>
+                        <outlet property="outerView" destination="w62-cl-ajQ" id="9jm-Kf-1rR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="340" y="377"/>
         </scene>
     </scenes>
 </document>

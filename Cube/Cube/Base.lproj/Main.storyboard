@@ -32,10 +32,49 @@
                     <connections>
                         <outlet property="containerView" destination="kJa-D0-lVa" id="TKe-cS-mJ5"/>
                         <outletCollection property="faces" destination="Wbb-qO-zKQ" id="nn5-jY-X4E"/>
+                        <outletCollection property="faces" destination="R64-Vz-kdU" id="OUY-5h-Lvm"/>
+                        <outletCollection property="faces" destination="42e-w4-zOv" id="Awd-Tw-NJf"/>
+                        <outletCollection property="faces" destination="dLd-mJ-ghR" id="OiS-B4-j1Y"/>
+                        <outletCollection property="faces" destination="NMr-hR-WAC" id="wbH-UX-khs"/>
+                        <outletCollection property="faces" destination="nkM-4u-fnb" id="svX-1x-Naf"/>
                     </connections>
                 </viewController>
+                <view contentMode="scaleToFill" id="dLd-mJ-ghR" userLabel="Cube 4">
+                    <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jOK-XP-XXb">
+                            <rect key="frame" x="88" y="82" width="20" height="36"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                            <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="jOK-XP-XXb" firstAttribute="top" secondItem="dLd-mJ-ghR" secondAttribute="top" constant="82" id="Lqe-eO-If7"/>
+                        <constraint firstItem="jOK-XP-XXb" firstAttribute="leading" secondItem="dLd-mJ-ghR" secondAttribute="leading" constant="88" id="quG-RX-glk"/>
+                    </constraints>
+                </view>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <view contentMode="scaleToFill" id="Wbb-qO-zKQ">
+                <view contentMode="scaleToFill" id="42e-w4-zOv" userLabel="Cube 3">
+                    <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uRI-bc-hoQ">
+                            <rect key="frame" x="90.5" y="82" width="19.5" height="36"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="uRI-bc-hoQ" firstAttribute="leading" secondItem="42e-w4-zOv" secondAttribute="leading" constant="90.5" id="18e-xY-bDh"/>
+                        <constraint firstItem="uRI-bc-hoQ" firstAttribute="top" secondItem="42e-w4-zOv" secondAttribute="top" constant="82" id="glg-br-Slm"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" id="Wbb-qO-zKQ" userLabel="Cube 1">
                     <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
@@ -50,6 +89,57 @@
                     <constraints>
                         <constraint firstItem="JGZ-SD-Z0i" firstAttribute="centerX" secondItem="Wbb-qO-zKQ" secondAttribute="centerX" id="pfH-Xz-Zwc"/>
                         <constraint firstItem="JGZ-SD-Z0i" firstAttribute="centerY" secondItem="Wbb-qO-zKQ" secondAttribute="centerY" id="wf5-tp-nJL"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" id="R64-Vz-kdU" userLabel="Cube 2">
+                    <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bs6-8o-czP">
+                            <rect key="frame" x="91.5" y="82" width="18.5" height="36"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                            <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="Bs6-8o-czP" firstAttribute="leading" secondItem="R64-Vz-kdU" secondAttribute="leading" constant="91.5" id="06H-2n-nab"/>
+                        <constraint firstItem="Bs6-8o-czP" firstAttribute="top" secondItem="R64-Vz-kdU" secondAttribute="top" constant="82" id="Tu5-bZ-imA"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" id="NMr-hR-WAC" userLabel="Cube 5">
+                    <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lZb-IJ-Tzg">
+                            <rect key="frame" x="88" y="82" width="20" height="36"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                            <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="lZb-IJ-Tzg" firstAttribute="top" secondItem="NMr-hR-WAC" secondAttribute="top" constant="82" id="bg4-c0-BWV"/>
+                        <constraint firstItem="lZb-IJ-Tzg" firstAttribute="leading" secondItem="NMr-hR-WAC" secondAttribute="leading" constant="88" id="tFS-r0-Cus"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" id="nkM-4u-fnb" userLabel="Cube 6">
+                    <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dEV-ra-YdE">
+                            <rect key="frame" x="88" y="82" width="20" height="36"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                            <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="dEV-ra-YdE" firstAttribute="top" secondItem="nkM-4u-fnb" secondAttribute="top" constant="82" id="D9F-TB-4L3"/>
+                        <constraint firstItem="dEV-ra-YdE" firstAttribute="leading" secondItem="nkM-4u-fnb" secondAttribute="leading" constant="88" id="oEt-Bt-FbQ"/>
                     </constraints>
                 </view>
             </objects>

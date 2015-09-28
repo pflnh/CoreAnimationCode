@@ -16,23 +16,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T7U-hw-cMh">
-                                <rect key="frame" x="100" y="200" width="400" height="200"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I1w-bb-9E7">
+                                <rect key="frame" x="200" y="200" width="200" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="400" id="2WW-KS-1es"/>
-                                    <constraint firstAttribute="height" constant="200" id="UXw-ki-KeW"/>
+                                    <constraint firstAttribute="width" constant="200" id="Xo9-aH-D01"/>
+                                    <constraint firstAttribute="height" constant="200" id="YHV-1h-JiJ"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="T7U-hw-cMh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="IdR-Ax-Gtv"/>
-                            <constraint firstItem="T7U-hw-cMh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oxH-ru-l9d"/>
+                            <constraint firstItem="I1w-bb-9E7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1Dz-1C-NAy"/>
+                            <constraint firstItem="I1w-bb-9E7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uIu-Sy-cej"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="containerView" destination="T7U-hw-cMh" id="c9p-U1-9Si"/>
+                        <outlet property="containerView" destination="I1w-bb-9E7" id="tPV-Sy-DUS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -7,6 +7,10 @@
 //
 
 #import "ViewController.h"
+#import <GLKit/GLKit.h>
+
+#define LIGHT_DIRECTION 0, 1, -0.5
+#define AMBIENT_LIGHT 0.5
 
 @interface ViewController ()
 
@@ -17,12 +21,34 @@
 
 @implementation ViewController
 
+- (void)applyLightingToFace:(CALayer *)face {
+    CALayer *layer = [CALayer layer];
+    layer.frame = face.bounds;
+    [face addSublayer:layer];
+    
+    CATransform3D transform = face.transform;
+    GLKMatrix4 matrix4 = * (GLKMatrix4 *)&transform;
+    GLKMatrix3 matrix3 = GLKMatrix4GetMatrix3(matrix4);
+    
+    GLKVector3 normal = GLKVector3Make(0, 0, 1);
+    normal = GLKMatrix3MultiplyVector3(matrix3, normal);
+    normal = GLKVector3Normalize(normal);
+    
+    GLKVector3 light = GLKVector3Normalize(GLKVector3Make(LIGHT_DIRECTION));
+    float dotProduct = GLKVector3DotProduct(light, normal);
+    
+    CGFloat shadow = 1 + dotProduct - AMBIENT_LIGHT;
+    UIColor *color = [UIColor colorWithWhite:0 alpha:shadow];
+    layer.backgroundColor = color.CGColor;
+}
+
 - (void)addFace:(NSInteger)index withTransform:(CATransform3D)transform {
     UIView *face = self.faces[index];
     [self.containerView addSubview:face];
     CGSize containerSize = self.containerView.bounds.size;
     face.center = CGPointMake(containerSize.width / 2, containerSize.height / 2);
     face.layer.transform = transform;
+    [self applyLightingToFace:face.layer];
 }
 
 - (void)viewDidLoad {

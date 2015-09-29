@@ -29,7 +29,7 @@
     tf = CATransform3DTranslate(tf, 0, 200, 0);
     tf = CATransform3DRotate(tf, M_PI / 5.0, 0, 0, 1);
     tf = CATransform3DTranslate(tf, 0, -200, 0);
-    replicator.transform = tf;
+    replicator.instanceTransform = tf;
     
     replicator.instanceBlueOffset = -0.1;
     replicator.instanceGreenOffset = -0.1;

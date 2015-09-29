@@ -46,7 +46,7 @@
     offset.x -= translation.x;
     offset.y -= translation.y;
     
-    NSLog(@"%@",NSStringFromCGPoint(translation));
+    NSLog(@"translation: %@",NSStringFromCGPoint(translation));
     
     [(CAScrollLayer *)self.layer scrollToPoint:offset];
     

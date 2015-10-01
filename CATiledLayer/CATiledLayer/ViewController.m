@@ -23,6 +23,7 @@
     CATiledLayer *tileLayer = [CATiledLayer layer];
     tileLayer.frame = CGRectMake(0, 0, 2048, 2048);
     tileLayer.delegate = self;
+//    tileLayer.contentsScale = [UIScreen mainScreen].scale;
     [self.scrollView.layer addSublayer:tileLayer];
     
     self.scrollView.contentSize = tileLayer.frame.size;
@@ -34,11 +35,16 @@
     CGRect bounds = CGContextGetClipBoundingBox(ctx);
     NSLog(@"bounds: %@", NSStringFromCGRect(bounds));
     NSLog(@"tileSize: %@", NSStringFromCGSize(layer.tileSize));
+    
     NSInteger x = floor(bounds.origin.x / layer.tileSize.width);
     NSInteger y = floor(bounds.origin.y / layer.tileSize.height);
     
-    NSString *imageName = [NSString stringWithFormat:@"snowman_%02ld_%02ld", x, y];
-    NSString *imagePath = [[NSBundle mainBundle] pathForResource:imageName ofType:@"jpg"];
+//    CGFloat scale = [UIScreen mainScreen].scale;
+//    NSInteger x = floor(bounds.origin.x / layer.tileSize.width * scale);
+//    NSInteger y = floor(bounds.origin.y / layer.tileSize.height * scale);
+    
+    NSString *imageName = [NSString stringWithFormat:@"Snowman_%02ld_%02ld", x, y];
+    NSString *imagePath = [[NSBundle mainBundle] pathForResource:imageName ofType:@"png"];
     UIImage *tileImage = [UIImage imageWithContentsOfFile:imagePath];
     
     UIGraphicsPushContext(ctx);

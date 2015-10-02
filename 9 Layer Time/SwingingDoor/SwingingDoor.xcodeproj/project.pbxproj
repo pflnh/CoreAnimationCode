@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		708155C51BBEF1EC008BD5F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 708155C41BBEF1EC008BD5F8 /* main.m */; };
+		708155C81BBEF1EC008BD5F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 708155C71BBEF1EC008BD5F8 /* AppDelegate.m */; };
+		708155CB1BBEF1EC008BD5F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 708155CA1BBEF1EC008BD5F8 /* ViewController.m */; };
+		708155CE1BBEF1EC008BD5F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 708155CC1BBEF1EC008BD5F8 /* Main.storyboard */; };
+		708155D01BBEF1EC008BD5F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 708155CF1BBEF1EC008BD5F8 /* Assets.xcassets */; };
+		708155D31BBEF1EC008BD5F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 708155D11BBEF1EC008BD5F8 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		708155C01BBEF1EC008BD5F8 /* SwingingDoor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwingingDoor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		708155C41BBEF1EC008BD5F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		708155C61BBEF1EC008BD5F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		708155C71BBEF1EC008BD5F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		708155C91BBEF1EC008BD5F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		708155CA1BBEF1EC008BD5F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		708155CD1BBEF1EC008BD5F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		708155CF1BBEF1EC008BD5F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		708155D21BBEF1EC008BD5F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		708155D41BBEF1EC008BD5F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		708155BD1BBEF1EC008BD5F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		708155B71BBEF1EC008BD5F8 = {
+			isa = PBXGroup;
+			children = (
+				708155C21BBEF1EC008BD5F8 /* SwingingDoor */,
+				708155C11BBEF1EC008BD5F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		708155C11BBEF1EC008BD5F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				708155C01BBEF1EC008BD5F8 /* SwingingDoor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		708155C21BBEF1EC008BD5F8 /* SwingingDoor */ = {
+			isa = PBXGroup;
+			children = (
+				708155C61BBEF1EC008BD5F8 /* AppDelegate.h */,
+				708155C71BBEF1EC008BD5F8 /* AppDelegate.m */,
+				708155C91BBEF1EC008BD5F8 /* ViewController.h */,
+				708155CA1BBEF1EC008BD5F8 /* ViewController.m */,
+				708155CC1BBEF1EC008BD5F8 /* Main.storyboard */,
+				708155CF1BBEF1EC008BD5F8 /* Assets.xcassets */,
+				708155D11BBEF1EC008BD5F8 /* LaunchScreen.storyboard */,
+				708155D41BBEF1EC008BD5F8 /* Info.plist */,
+				708155C31BBEF1EC008BD5F8 /* Supporting Files */,
+			);
+			path = SwingingDoor;
+			sourceTree = "<group>";
+		};
+		708155C31BBEF1EC008BD5F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				708155C41BBEF1EC008BD5F8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		708155BF1BBEF1EC008BD5F8 /* SwingingDoor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 708155D71BBEF1EC008BD5F8 /* Build configuration list for PBXNativeTarget "SwingingDoor" */;
+			buildPhases = (
+				708155BC1BBEF1EC008BD5F8 /* Sources */,
+				708155BD1BBEF1EC008BD5F8 /* Frameworks */,
+				708155BE1BBEF1EC008BD5F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwingingDoor;
+			productName = SwingingDoor;
+			productReference = 708155C01BBEF1EC008BD5F8 /* SwingingDoor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		708155B81BBEF1EC008BD5F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = lzwjava;
+				TargetAttributes = {
+					708155BF1BBEF1EC008BD5F8 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 708155BB1BBEF1EC008BD5F8 /* Build configuration list for PBXProject "SwingingDoor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 708155B71BBEF1EC008BD5F8;
+			productRefGroup = 708155C11BBEF1EC008BD5F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				708155BF1BBEF1EC008BD5F8 /* SwingingDoor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		708155BE1BBEF1EC008BD5F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708155D31BBEF1EC008BD5F8 /* LaunchScreen.storyboard in Resources */,
+				708155D01BBEF1EC008BD5F8 /* Assets.xcassets in Resources */,
+				708155CE1BBEF1EC008BD5F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		708155BC1BBEF1EC008BD5F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708155CB1BBEF1EC008BD5F8 /* ViewController.m in Sources */,
+				708155C81BBEF1EC008BD5F8 /* AppDelegate.m in Sources */,
+				708155C51BBEF1EC008BD5F8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		708155CC1BBEF1EC008BD5F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				708155CD1BBEF1EC008BD5F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		708155D11BBEF1EC008BD5F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				708155D21BBEF1EC008BD5F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		708155D51BBEF1EC008BD5F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		708155D61BBEF1EC008BD5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		708155D81BBEF1EC008BD5F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwingingDoor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lzwjava.SwingingDoor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		708155D91BBEF1EC008BD5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwingingDoor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lzwjava.SwingingDoor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		708155BB1BBEF1EC008BD5F8 /* Build configuration list for PBXProject "SwingingDoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708155D51BBEF1EC008BD5F8 /* Debug */,
+				708155D61BBEF1EC008BD5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		708155D71BBEF1EC008BD5F8 /* Build configuration list for PBXNativeTarget "SwingingDoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708155D81BBEF1EC008BD5F8 /* Debug */,
+				708155D91BBEF1EC008BD5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 708155B81BBEF1EC008BD5F8 /* Project object */;
+}

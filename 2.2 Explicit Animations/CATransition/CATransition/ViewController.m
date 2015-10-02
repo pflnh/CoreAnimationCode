@@ -28,7 +28,7 @@
     self.imageView.contentMode = UIViewContentModeScaleAspectFit;
 }
 
-- (IBAction)switchImage:(id)sender {
+- (void)useCATransition {
     CATransition *transition = [CATransition animation];
     transition.type = kCATransitionFade;
     transition.duration = 1;
@@ -39,6 +39,19 @@
     NSUInteger index = [self.images indexOfObject:currentImage];
     index = (index + 1) % self.images.count;
     self.imageView.image = self.images[index];
+}
+
+- (void)useUIKit {
+    [UIView transitionWithView:self.imageView duration:1 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
+        UIImage *currentImage = self.imageView.image;
+        NSUInteger index = [self.images indexOfObject:currentImage];
+        index = (index + 1) % self.images.count;
+        self.imageView.image = self.images[index];
+    } completion:nil];
+}
+
+- (IBAction)switchImage:(id)sender {
+    [self useUIKit];
 }
 
 - (void)didReceiveMemoryWarning {

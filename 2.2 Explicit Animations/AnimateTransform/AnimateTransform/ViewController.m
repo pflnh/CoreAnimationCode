@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UIView *containerView;
+
 @end
 
 @implementation ViewController
@@ -17,6 +19,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    CALayer *shipLayer = [CALayer layer];
+    shipLayer.frame = CGRectMake(0, 0, 128, 128);
+    shipLayer.position = CGPointMake(CGRectGetWidth(self.containerView.frame) / 2, CGRectGetHeight(self.containerView.frame) / 2);
+    shipLayer.contents =(__bridge id)[UIImage imageNamed:@"Ship"].CGImage;
+    [self.containerView.layer addSublayer:shipLayer];
+    
+    CABasicAnimation *animation = [CABasicAnimation animation];
+    animation.keyPath = @"transform";
+    animation.duration = 2;
+    animation.toValue = [NSValue valueWithCATransform3D:CATransform3DMakeRotation(M_PI, 0, 0, 1)];
+    [shipLayer addAnimation:animation forKey:nil];
 }
 
 - (void)didReceiveMemoryWarning {

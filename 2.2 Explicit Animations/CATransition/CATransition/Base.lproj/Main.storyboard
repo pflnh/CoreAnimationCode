@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LIa-ba-V3E">
+                                <rect key="frame" x="200" y="200" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="UNC-F9-TWZ"/>
+                                    <constraint firstAttribute="width" constant="200" id="rk7-Cr-1LZ"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9X2-DH-azc">
+                                <rect key="frame" x="254" y="434" width="92" height="30"/>
+                                <state key="normal" title="Switch Image"/>
+                                <connections>
+                                    <action selector="switchImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ypt-Ns-COq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LIa-ba-V3E" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3um-cp-KO3"/>
+                            <constraint firstItem="9X2-DH-azc" firstAttribute="top" secondItem="LIa-ba-V3E" secondAttribute="bottom" constant="34" id="5Dd-XM-AT6"/>
+                            <constraint firstItem="9X2-DH-azc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ATp-ln-1b8"/>
+                            <constraint firstItem="LIa-ba-V3E" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ono-gx-J1n"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="LIa-ba-V3E" id="90J-Y2-w1U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

@@ -80,3 +80,23 @@ Recently, I'm reading the book. I think I should write some code. So I copy and 
 
 You can open `CoreAnimationCode.xcworkspace` to see all projects in one workspace.
 
+## Some instereting examples
+
+CAEmitterCell:
+
+![code1](https://cloud.githubusercontent.com/assets/5022872/10262403/3e89bbf6-69f8-11e5-897c-ab6c76c9172e.gif)
+
+timeOffset & speed test:
+
+![code2](https://cloud.githubusercontent.com/assets/5022872/10262407/5d5a9fdc-69f8-11e5-8161-0d4b8b9ec4eb.gif)
+
+
+Manual Animation:
+
+![code3](https://cloud.githubusercontent.com/assets/5022872/10262408/68b2759e-69f8-11e5-8760-1f9f4ce1482f.gif)
+
+
+Custome Transition:
+
+![code4](https://cloud.githubusercontent.com/assets/5022872/10262410/7ab6030a-69f8-11e5-8395-0dadc09c46dd.gif)
+

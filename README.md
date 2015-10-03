@@ -77,7 +77,3 @@ Recently, I'm reading the book. I think I should write some code. So I copy and 
 
 65 directories
 ```
-
-## Some Interesting Demos
-
-

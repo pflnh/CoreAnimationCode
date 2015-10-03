@@ -73,5 +73,6 @@ The tree of the repo:
 │   ├── SwingingDoor
 │   └── TimeOffsetAndSpeed
 └── README.md
-```
 
+65 directories
+```

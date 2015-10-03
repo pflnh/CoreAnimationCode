@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		70204C031BAEBE9A0054E94A /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70204C031BAEBE9A0054E94A /* AnimatedClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70204C071BAEBE9A0054E94A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		70204C091BAEBE9A0054E94A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		70204C0A1BAEBE9A0054E94A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		70204C041BAEBE9A0054E94A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				70204C031BAEBE9A0054E94A /* Clock.app */,
+				70204C031BAEBE9A0054E94A /* AnimatedClock.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		70204C021BAEBE9A0054E94A /* Clock */ = {
+		70204C021BAEBE9A0054E94A /* AnimatedClock */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70204C1A1BAEBE9A0054E94A /* Build configuration list for PBXNativeTarget "Clock" */;
+			buildConfigurationList = 70204C1A1BAEBE9A0054E94A /* Build configuration list for PBXNativeTarget "AnimatedClock" */;
 			buildPhases = (
 				70204BFF1BAEBE9A0054E94A /* Sources */,
 				70204C001BAEBE9A0054E94A /* Frameworks */,
@@ -94,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = Clock;
+			name = AnimatedClock;
 			productName = Clock;
-			productReference = 70204C031BAEBE9A0054E94A /* Clock.app */;
+			productReference = 70204C031BAEBE9A0054E94A /* AnimatedClock.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 70204BFE1BAEBE9A0054E94A /* Build configuration list for PBXProject "Clock" */;
+			buildConfigurationList = 70204BFE1BAEBE9A0054E94A /* Build configuration list for PBXProject "AnimatedClock" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -126,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				70204C021BAEBE9A0054E94A /* Clock */,
+				70204C021BAEBE9A0054E94A /* AnimatedClock */,
 			);
 		};
 /* End PBXProject section */
@@ -264,7 +264,7 @@
 				INFOPLIST_FILE = Clock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lzwjava.Clock;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AnimatedClock;
 			};
 			name = Debug;
 		};
@@ -275,14 +275,14 @@
 				INFOPLIST_FILE = Clock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lzwjava.Clock;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AnimatedClock;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		70204BFE1BAEBE9A0054E94A /* Build configuration list for PBXProject "Clock" */ = {
+		70204BFE1BAEBE9A0054E94A /* Build configuration list for PBXProject "AnimatedClock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				70204C181BAEBE9A0054E94A /* Debug */,
@@ -291,13 +291,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70204C1A1BAEBE9A0054E94A /* Build configuration list for PBXNativeTarget "Clock" */ = {
+		70204C1A1BAEBE9A0054E94A /* Build configuration list for PBXNativeTarget "AnimatedClock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				70204C1B1BAEBE9A0054E94A /* Debug */,
 				70204C1C1BAEBE9A0054E94A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

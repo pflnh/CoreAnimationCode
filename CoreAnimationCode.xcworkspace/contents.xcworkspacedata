@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:1 The Layer Tree/BlueLayer/BlueLayer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:2 The Backing Image/LayerContent/LayerContent.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:2 The Backing Image/Sprite/Sprite.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:2 The Backing Image/CALayerDelegate/CALayerDelegate.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:3 Layer Geometry/ContentsCenter/ContentsCenter.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:3 Layer Geometry/AnchorPoint/AnchorPoint.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:3 Layer Geometry/ZPosition/ZPosition.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:3 Layer Geometry/ContainsPoint/ContainsPoint.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:3 Layer Geometry/Clock/Clock.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:4 Visual Effects/RoundedCorners/RoundedCorners.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:4 Visual Effects/DropShadows/DropShadows.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:4 Visual Effects/ShadowClipping/ShadowClipping.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:4 Visual Effects/ShadowPath/ShadowPath.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:4 Visual Effects/LayerMask/LayerMask.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:4 Visual Effects/GroupOpacity/GroupOpacity.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:4 Visual Effects/LCDClock/LCDClock.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:5 Transforms/CompoundTransform/CompoundTransform.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:5 Transforms/SublayerTransform/SublayerTransform.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:5 Transforms/OppositeRotationAroundZ/OppositeRotationAroundZ.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:5 Transforms/OppositeRoationAroundY/OppositeRoationAroundY.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:5 Transforms/Cube/Cube.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:5 Transforms/CompoundTransform/CompoundTransform.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:6 Specialized Layers/CAShapeLayer/CAShapeLayer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:6 Specialized Layers/CATextLayer/CATextLayer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:6 Specialized Layers/RichText/RichText.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:6 Specialized Layers/LayerLabel/LayerLabel.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:6 Specialized Layers/CATransformLayer/CATransformLayer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:6 Specialized Layers/CAGradientLayer/CAGradientLayer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:6 Specialized Layers/CAReplicatorLayer/CAReplicatorLayer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:6 Specialized Layers/Reflection/Reflection.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:6 Specialized Layers/CAScrollLayer/CAScrollLayer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:6 Specialized Layers/TileCutter/TileCutter.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:6 Specialized Layers/CATiledLayer/CATiledLayer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:6 Specialized Layers/CAEmitterLayer/CAEmitterLayer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:6 Specialized Layers/CAEAGLLayer/CAEAGLLayer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:6 Specialized Layers/AVPlayerLayer/AVPlayerLayer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:7 Implicit Animations/Transactions/Transactions.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:7 Implicit Animations/LayerActions/LayerActions.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:7 Implicit Animations/ActionForLayer/ActionForLayer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:7 Implicit Animations/CustomAction/CustomAction.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:7 Implicit Animations/PresentationLayer/PresentationLayer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:8 Explicit Animations/CABasicAnimation/CABasicAnimation.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:8 Explicit Animations/AnimationDidStop/AnimationDidStop.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:8 Explicit Animations/AnimatedClock/AnimatedClock.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:8 Explicit Animations/CAKeyframeAnimation/CAKeyframeAnimation.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:8 Explicit Animations/UIBezierPath/UIBezierPath.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:8 Explicit Animations/AnimateTransform/AnimateTransform.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:8 Explicit Animations/TransformRotation/TransformRotation.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:8 Explicit Animations/AnimationGroup/AnimationGroup.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:8 Explicit Animations/CATransition/CATransition.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:8 Explicit Animations/AnimateUITabBarController/AnimateUITabBarController.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:8 Explicit Animations/CustomTransition/CustomTransition.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:8 Explicit Animations/CancelAnimation/CancelAnimation.xcodeproj">
+   </FileRef>
+</Workspace>

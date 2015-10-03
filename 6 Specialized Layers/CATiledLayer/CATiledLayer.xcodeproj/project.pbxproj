@@ -77,20 +77,7 @@
 		708AD9B91BBAF1F900C8AFE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 708AD9B71BBAF1F900C8AFE8 /* Main.storyboard */; };
 		708AD9BB1BBAF1F900C8AFE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 708AD9BA1BBAF1F900C8AFE8 /* Assets.xcassets */; };
 		708AD9BE1BBAF1F900C8AFE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 708AD9BC1BBAF1F900C8AFE8 /* LaunchScreen.storyboard */; };
-		708AD9DF1BBB101400C8AFE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 708AD9DE1BBB101400C8AFE8 /* main.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		708AD9DA1BBB101400C8AFE8 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		707826731BBC319000D908BB /* Snowman_00_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snowman_00_00.png; sourceTree = "<group>"; };
@@ -167,19 +154,10 @@
 		708AD9BA1BBAF1F900C8AFE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		708AD9BD1BBAF1F900C8AFE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		708AD9BF1BBAF1F900C8AFE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		708AD9DC1BBB101400C8AFE8 /* TileCutter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TileCutter; sourceTree = BUILT_PRODUCTS_DIR; };
-		708AD9DE1BBB101400C8AFE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		708AD9A81BBAF1F900C8AFE8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		708AD9D91BBB101400C8AFE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -264,7 +242,6 @@
 			isa = PBXGroup;
 			children = (
 				708AD9AD1BBAF1F900C8AFE8 /* CATiledLayer */,
-				708AD9DD1BBB101400C8AFE8 /* TileCutter */,
 				708AD9AC1BBAF1F900C8AFE8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -273,7 +250,6 @@
 			isa = PBXGroup;
 			children = (
 				708AD9AB1BBAF1F900C8AFE8 /* CATiledLayer.app */,
-				708AD9DC1BBB101400C8AFE8 /* TileCutter */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -303,14 +279,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		708AD9DD1BBB101400C8AFE8 /* TileCutter */ = {
-			isa = PBXGroup;
-			children = (
-				708AD9DE1BBB101400C8AFE8 /* main.m */,
-			);
-			path = TileCutter;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -331,23 +299,6 @@
 			productReference = 708AD9AB1BBAF1F900C8AFE8 /* CATiledLayer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		708AD9DB1BBB101400C8AFE8 /* TileCutter */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 708AD9E01BBB101400C8AFE8 /* Build configuration list for PBXNativeTarget "TileCutter" */;
-			buildPhases = (
-				708AD9D81BBB101400C8AFE8 /* Sources */,
-				708AD9D91BBB101400C8AFE8 /* Frameworks */,
-				708AD9DA1BBB101400C8AFE8 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TileCutter;
-			productName = TileCutter;
-			productReference = 708AD9DC1BBB101400C8AFE8 /* TileCutter */;
-			productType = "com.apple.product-type.tool";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -358,9 +309,6 @@
 				ORGANIZATIONNAME = "微信:  lzwjava";
 				TargetAttributes = {
 					708AD9AA1BBAF1F900C8AFE8 = {
-						CreatedOnToolsVersion = 7.0;
-					};
-					708AD9DB1BBB101400C8AFE8 = {
 						CreatedOnToolsVersion = 7.0;
 					};
 				};
@@ -379,7 +327,6 @@
 			projectRoot = "";
 			targets = (
 				708AD9AA1BBAF1F900C8AFE8 /* CATiledLayer */,
-				708AD9DB1BBB101400C8AFE8 /* TileCutter */,
 			);
 		};
 /* End PBXProject section */
@@ -469,14 +416,6 @@
 				708AD9B61BBAF1F900C8AFE8 /* ViewController.m in Sources */,
 				708AD9B31BBAF1F900C8AFE8 /* AppDelegate.m in Sources */,
 				708AD9B01BBAF1F900C8AFE8 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		708AD9D81BBB101400C8AFE8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				708AD9DF1BBB101400C8AFE8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,6 +526,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CATiledLayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lzwjava.CATiledLayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -598,27 +538,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CATiledLayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lzwjava.CATiledLayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		708AD9E11BBB101400C8AFE8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		708AD9E21BBB101400C8AFE8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -639,15 +562,6 @@
 			buildConfigurations = (
 				708AD9C31BBAF1F900C8AFE8 /* Debug */,
 				708AD9C41BBAF1F900C8AFE8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		708AD9E01BBB101400C8AFE8 /* Build configuration list for PBXNativeTarget "TileCutter" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				708AD9E11BBB101400C8AFE8 /* Debug */,
-				708AD9E21BBB101400C8AFE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

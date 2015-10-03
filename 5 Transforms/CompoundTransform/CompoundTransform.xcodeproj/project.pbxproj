@@ -262,6 +262,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CompoundTransform/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lzwjava.CompoundTransform;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +274,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CompoundTransform/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lzwjava.CompoundTransform;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,7 +291,7 @@
 				7044F2C41BB1E8D2007092A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		7044F2C51BB1E8D2007092A6 /* Build configuration list for PBXNativeTarget "CompoundTransform" */ = {
 			isa = XCConfigurationList;
@@ -298,6 +300,7 @@
 				7044F2C71BB1E8D2007092A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

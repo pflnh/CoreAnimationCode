@@ -160,4 +160,16 @@
    <FileRef
       location = "group:8 Explicit Animations/CancelAnimation/CancelAnimation.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:9 Layer Time/DurationAndRepeatCount/DurationAndRepeatCount.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:9 Layer Time/TimeOffsetAndSpeed/TimeOffsetAndSpped.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:9 Layer Time/SwingingDoor/SwingingDoor.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:9 Layer Time/ManualAnimation/ManualAnimation.xcodeproj">
+   </FileRef>
 </Workspace>

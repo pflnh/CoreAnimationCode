@@ -84,7 +84,8 @@ You can open `CoreAnimationCode.xcworkspace` to see all projects in one workspac
 
 CAEmitterCell:
 
-![code1](https://cloud.githubusercontent.com/assets/5022872/10262403/3e89bbf6-69f8-11e5-897c-ab6c76c9172e.gif)
+![code1](https://cloud.githubusercontent.com/assets/5022872/10262415/9b2bebea-69f8-11e5-9708-28e0602f66d4.gif)
+
 
 timeOffset & speed test:
 

@@ -1,6 +1,6 @@
 # Core Animation Code
 
-These are code examples for the book _iOS Core Animation Advanced Techniques_ written by [Nick Lockwood](https://github.com/nicklockwood), include code examples from Chapter 1 to Chapter 9. The rest six chapters will be included later.
+These are code examples for the book _iOS Core Animation Advanced Techniques_ written by [Nick Lockwood](https://github.com/nicklockwood), include code examples from Chapter 1 to Chapter 9. 
 
 Recently, I'm reading the book. I think I should write some code. So I copy and paste the easy part from the book to Xcode, and write the hard part bodily after I understand well. Gradually, I accumulate these code examples.
 
@@ -78,4 +78,5 @@ Recently, I'm reading the book. I think I should write some code. So I copy and 
 65 directories
 ```
 
+You can open `CoreAnimationCode.xcworkspace` to see all projects in one workspace.
 

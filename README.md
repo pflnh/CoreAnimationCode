@@ -80,11 +80,11 @@ Recently, I'm reading the book. I think I should write some code. So I copy and 
 
 You can open `CoreAnimationCode.xcworkspace` to see all projects in one workspace.
 
-## Some instereting examples
+## Some Instereting Examples
 
 CAEmitterCell:
 
-![code1](https://cloud.githubusercontent.com/assets/5022872/10262415/9b2bebea-69f8-11e5-9708-28e0602f66d4.gif)
+![codexx](https://cloud.githubusercontent.com/assets/5022872/10262422/051ddb80-69f9-11e5-80d1-f0b61df6f072.gif)
 
 
 timeOffset & speed test:
